@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Arutos проект codelobster.</title>
+		<link rel="icon" href="img/favicon.png" type="image/x-icon">
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" href="css/font-glyphicons.css">
+		<!-- Подключение онлайн библиотеки JQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<!-- Optional theme -->
+<!--		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">-->
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		
+
+	</head>
+<body>
+
+
+<script>var strPost = window.location.search.toString().substr(6); if (strPost.length == 0) { strPost = "html/main.html"; }</script>
+	<header id="header"><script>$(function() {$('#header').load("html/header.html"); });</script></header>
+	<nav id="topmenu"><script>$(function() {$('#topmenu').load("html/topmenu.html"); });</script></nav>
+	<main id="main"><script>$(function() {$('#main').load(strPost); });</script></main>
+	<aside id="aside">
+
+	<script>$(function() {$('#aside').load("html/aside.html"); });</script></aside>
+	<footer id="footer">
+
+	<script>$(function() {$('#footer').load("html/footer.html"); });</script></footer>
+
+</body>	
+	
+</html>
